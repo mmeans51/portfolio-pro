@@ -21,10 +21,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
+        "service_xpm51v6",
+        "template_c6b4lpl",
         form.current,
-        'your-token'
+        "tFAJmHj4bU_mGSiHs"
       )
       .then(
         () => {
@@ -44,7 +44,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'M', 'e']}
               idx={15}
             />
           </h1>
@@ -98,14 +98,7 @@ const Contact = () => {
           <br />
           <span>colemeans51@gmail.com</span>
         </div>
-        <div className="map-wrap">
-          {/* <MapContainer center={[44.96366, 19.61045]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
-            </Marker>
-          </MapContainer> */}
-        </div>
+        
       </div>
       <Loader type="pacman" />
     </>

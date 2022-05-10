@@ -23,6 +23,7 @@ const About = () => {
 
   return (
     <>
+    
       <div className="container about-page">
         <div className="text-zone">
           <h1>
@@ -36,16 +37,20 @@ const About = () => {
             I'm very ambitious front-end developer looking for a role in
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
+         
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
-          </p>
-          <p>
+         
             In my free time I like to create music, go on hikes, and enjoy the outdoors
           </p>
+          <ol>
+            <li>Banana</li>
+            <li>Pineapple</li>
+            <li>Cherry</li>
+          </ol>
         </div>
 
+        
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">

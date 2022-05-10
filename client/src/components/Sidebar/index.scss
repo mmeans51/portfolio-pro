@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 60px;
+  width: 210px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -10,16 +10,13 @@
   .logo {
     display: block;
     padding: 8px 0;
+    height: 100px;
 
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
-      height: auto;
-
-      &.sub-logo {
-        width: 50px;
-      }
+      width: 240px;
+      height: 300px;
     }
   }
 
@@ -33,7 +30,7 @@
     width: 100%;
 
     a {
-      font-size: 22px;
+      font-size: 40px;
       color: #4d4d4e;
       display: block;
       line-height: 51px;
@@ -59,7 +56,7 @@
 
       &:after {
         content: '';
-        font-size: 9px;
+        font-size: 20px;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -111,7 +108,7 @@
       a {
         padding: 7px 0;
         display: block;
-        font-size: 15px;
+        font-size: 40px;
         line-height: 16px;
         color: #4d4d4e;
 
