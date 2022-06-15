@@ -49,7 +49,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            If interested and scheduleing a phone call, zoom call,
+            If interested in scheduleing a phone call, zoom call,
              or would like any other info, please feel free to send me a message!
           </p>
           <div className="contact-form">
@@ -92,10 +92,9 @@ const Contact = () => {
           Dallas,
           <br />
           Texas,
-          <br />
-          {/* Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br /> */}
-          <br />
+          <span>
+          ,6061 Village Bend Dr, apt# 1515
+          </span>
           <span>colemeans51@gmail.com</span>
         </div>
         
