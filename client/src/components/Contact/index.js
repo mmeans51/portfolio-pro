@@ -92,10 +92,12 @@ const Contact = () => {
           Dallas,
           <br />
           Texas,
-          <span>
+          <br />
           ,6061 Village Bend Dr, apt# 1515
-          </span>
-          <span>colemeans51@gmail.com</span>
+          <br />
+          colemeans51@gmail.com
+          <br />
+          (903)808-0914
         </div>
         
       </div>
