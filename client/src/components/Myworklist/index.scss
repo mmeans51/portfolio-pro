@@ -1,0 +1,46 @@
+.mw{
+    padding: 50p 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+}
+
+.mw-text{
+    width: 65%;
+
+}
+
+.mw-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.mw-description{
+    margin: 20px 0px;
+}
+
+.mw-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .mw {
+      padding: 10px;
+    }
+  
+    .mw-text {
+      width: 100%;
+    }
+  
+    .mw-description {
+      display: none;
+    }
+  
+
+}
