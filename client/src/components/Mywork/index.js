@@ -1,4 +1,4 @@
-import "./Mywork.css"
+import "./index.scss"
 
 const Mywork = ({img, link}) => {
     return (

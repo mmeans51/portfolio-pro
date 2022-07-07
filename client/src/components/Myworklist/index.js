@@ -1,5 +1,5 @@
-import "./MyworkList.css"
-import Mywork from "../Mywork/Mywork"
+import "./index.scss"
+import Mywork from "../Mywork/index"
 import { Work } from "../../data"
 
 const MyworkList = () => {
