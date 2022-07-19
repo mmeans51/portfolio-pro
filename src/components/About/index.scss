@@ -3,14 +3,17 @@
       font-size: 200px;
       justify-content: center;
       margin-left: 500px;
-
-      .p {
-        position: absolute;
+  }
+      p {
+        color: #ccc;
     font-size: 100px;
     display: flex;
-    font-size: 50pt;
+    font-size: 25pt;
+    justify-content: center;
+    margin-left: -500px;
+    
       }
-    }
+    
     
     
     
