@@ -8,13 +8,12 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = [' ', 'M', 'i', 'c', 'h', 'a', 'e', 'l', ',']
+  const nameArray = ['M', 'e', 'a', 'n', 's']
   const jobArray = [
     'W',
     'e',
-    'b',
-    ' ',
-    'd',
+    'b ',
+    ' D',
     'e',
     'v',
     'e',
@@ -23,7 +22,7 @@ const Home = () => {
     'p',
     'e',
     'r',
-    '.',
+    
   ]
 
   useEffect(() => {
@@ -37,13 +36,14 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
-            <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
-            <span className={`${letterClass} _14`}> </span>
-         
+            <span className={letterClass}>M</span>
+            <span className={`${letterClass} _12`}>i</span>
+            <span className={`${letterClass} _13`}>c</span>
+            <span className={`${letterClass} _14`}>h</span>
+            <span className={`${letterClass} _14`}>a </span>
+            <span className={`${letterClass} _14`}> e</span>
+            <span className={`${letterClass} _14`}>l </span>
+
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}

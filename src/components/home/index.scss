@@ -7,8 +7,12 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    width: 60%;
+    max-height: 60%;
+    
+    .letterClass {
+      font-size: 10px;
+    }
   }
 
   h1 {
