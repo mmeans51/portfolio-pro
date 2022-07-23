@@ -1,6 +1,7 @@
-// import './index.scss'
-import  Resume  from "../../assets/images/Michael_Means_Resume.PDF"
+import './index.scss'
+import   Resume   from "../../assets/images/Michael_Means_Resume-1.png"
 
+import Loader from 'react-loaders'
 
 const MyResume = () => {
 return (
@@ -11,5 +12,6 @@ return (
     </div>
 )
 };
+<Loader type="pacman" />
 
 export default MyResume
