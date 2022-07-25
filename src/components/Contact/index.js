@@ -88,17 +88,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
-          Dallas,
-          <br />
-          Texas,
-          <br />
-          ,6061 Village Bend Dr, apt# 1515
-          <br />
-          colemeans51@gmail.com
-          <br />
-          (903)808-0914
-        </div>
+       
         
       </div>
       <Loader type="pacman" />
