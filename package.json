@@ -1,5 +1,6 @@
 {
   "name": "portfolio-pro",
+  "homepage": "https://github.com/mmeans51/portfolio-pro.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "gh-pages": "^4.0.0",
     "gsap-trial": "^3.10.3",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
@@ -24,6 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
