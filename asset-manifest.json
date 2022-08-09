@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mmeans51/portfolio-pro.git/static/css/main.78b359ef.css",
+    "main.js": "/mmeans51/portfolio-pro.git/static/js/main.d974363e.js",
+    "static/js/787.06ad7659.chunk.js": "/mmeans51/portfolio-pro.git/static/js/787.06ad7659.chunk.js",
+    "static/media/screencapture-felipezintzun-github-io-watchopedia-2022-03-31-18_59_08.jpg": "/mmeans51/portfolio-pro.git/static/media/screencapture-felipezintzun-github-io-watchopedia-2022-03-31-18_59_08.cbc298b144a564680a6d.jpg",
+    "static/media/screencapture-mmeans51-github-io-run-buddy-2022-03-30-16_24_11.jpg": "/mmeans51/portfolio-pro.git/static/media/screencapture-mmeans51-github-io-run-buddy-2022-03-30-16_24_11.81dd0187a70408b93eb3.jpg",
+    "static/media/screencapture-teksess-herokuapp-2022-03-30-20_23_09.jpg": "/mmeans51/portfolio-pro.git/static/media/screencapture-teksess-herokuapp-2022-03-30-20_23_09.eda1b456e048a29453f6.jpg",
+    "static/media/Michael_Means_Resume-1.png": "/mmeans51/portfolio-pro.git/static/media/Michael_Means_Resume-1.d0279194441fe25b1d2e.png",
+    "static/media/Michael Means-logos_white.png": "/mmeans51/portfolio-pro.git/static/media/Michael Means-logos_white.249b5525edb7d8b5b234.png",
+    "static/media/helvetica-neu.ttf": "/mmeans51/portfolio-pro.git/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/mmeans51/portfolio-pro.git/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/mmeans51/portfolio-pro.git/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/mmeans51/portfolio-pro.git/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/mmeans51/portfolio-pro.git/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/mmeans51/portfolio-pro.git/index.html",
+    "main.78b359ef.css.map": "/mmeans51/portfolio-pro.git/static/css/main.78b359ef.css.map",
+    "main.d974363e.js.map": "/mmeans51/portfolio-pro.git/static/js/main.d974363e.js.map",
+    "787.06ad7659.chunk.js.map": "/mmeans51/portfolio-pro.git/static/js/787.06ad7659.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b359ef.css",
+    "static/js/main.d974363e.js"
+  ]
+}
