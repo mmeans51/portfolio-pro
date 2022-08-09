@@ -6,12 +6,12 @@
     top: 50%;
     transform: translateY(-50%);
     width: 60%;
-    max-height: 60%;
+    max-height: 100%;
     
   
     
   
-  }
+  
 
   h1 {
     color: #fff;
@@ -70,6 +70,7 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
+  
   }
 
   .flat-button {
@@ -81,7 +82,7 @@
     text-decoration: none;
     padding: 10px 18px;
     border: 1px solid #ffd700;
-    margin-top: 165px;
+    margin-top: 600px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
@@ -90,4 +91,5 @@
       background: #ffd700;
       color: #333;
     }
+  }
   }
