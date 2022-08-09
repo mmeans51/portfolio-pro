@@ -9,9 +9,7 @@
     max-height: 60%;
     
   
-    span {
-      font-size: 50px;
-    }
+    
   
   }
 
@@ -21,10 +19,16 @@
     line-height: 40px;
     margin: 0;
     font-family: 'Coolvetica';
-    font-weight: 400;
+    font-weight: 350;
     
     
     
+    span {
+      font-size: 50px;
+      }
+      .namearray {
+        left: 50%;
+      }
 
     &:before {
       content: '<h1>';
