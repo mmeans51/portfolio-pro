@@ -3,16 +3,16 @@
   //   font-size: 20px;
   // }
   .text-zone {
-    position: absolute;
+    position: relative;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
     width: 60%;
     max-height: 60%;
+    
   
     span {
       font-size: 100px;
-      
     }
   
   }
@@ -24,7 +24,8 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
-    display:inline;
+    
+    
     
 
     &:before {
