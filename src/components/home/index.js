@@ -43,6 +43,8 @@ const Home = () => {
             <span className={`${letterClass} _14`}>e</span>
             <span className={`${letterClass} _14`}>l M</span>
             
+            
+            
 
             <AnimatedLetters
               letterClass={letterClass}
@@ -55,6 +57,7 @@ const Home = () => {
               strArray={jobArray}
               idx={22}
             />
+           
           </h1>
           <h2>Full Stack Developer</h2>
           <Link to="/contact" className="flat-button">

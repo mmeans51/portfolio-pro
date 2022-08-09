@@ -1,7 +1,7 @@
 
   
   .text-zone {
-    position: relative;
+    position:absolute;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
@@ -20,15 +20,14 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 350;
+    left: 500%;
     
     
-    
+   
     span {
       font-size: 50px;
       }
-      .namearray {
-        left: 50%;
-      }
+      
 
     &:before {
       content: '<h1>';
