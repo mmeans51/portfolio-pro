@@ -61,11 +61,12 @@ const Home = () => {
 
           <div className="i-title">
             <p className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">Musician</div>
-              <div className="i-title-item">Diesel Tech</div>
-              <div className="i-title-item">2x Bowling Champion</div>
-              
+              <div className="i-title-item">JavaScript</div>
+              <div className="i-title-item">Mern</div>
+              <div className="i-title-item">REACT</div>
+              <div className="i-title-item">SQL</div>
+              <div className="i-title-item">MONGO</div>
+              <div className="i-title-item">SCSS</div>
              </p>
           </div>
 
