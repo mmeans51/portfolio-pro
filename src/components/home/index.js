@@ -1,40 +1,28 @@
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
+// import AnimatedLetters from '../AnimatedLetters'
+import Resume from '../../img/coding-certification.png'
 
 import './index.scss'
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  // const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['e', 'a', 'n', 's']
-  const jobArray = [
-    'W',
-    'e',
-    'b D',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    
-  ]
+  // const nameArray = ['e', 'a', 'n', 's']
+  // const jobArray = ['W', 'e', 'b D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
-  useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
+  // useEffect(() => {
+  //   return setTimeout(() => {
+  //     setLetterClass('text-animate-hover')
+  //   }, 4000)
+  // }, [])
 
   return (
     <>
       <div className="container home-page">
         <div className="text-zone">
-          <h1>
+          {/* <h1>
             <span className={letterClass}>M</span>
             <span className={`${letterClass} _12`}>i</span>
             <span className={`${letterClass} _13`}>c</span>
@@ -42,9 +30,6 @@ const Home = () => {
             <span className={`${letterClass} _14`}>a</span>
             <span className={`${letterClass} _14`}>e</span>
             <span className={`${letterClass} _14`}>l M</span>
-            
-            
-            
 
             <AnimatedLetters
               letterClass={letterClass}
@@ -57,7 +42,9 @@ const Home = () => {
               strArray={jobArray}
               idx={22}
             />
-          </h1>
+          </h1> */}
+
+         
 
           <div className="i-title">
             <p className="i-title-wrapper">
@@ -67,7 +54,7 @@ const Home = () => {
               <div className="i-title-item">SQL</div>
               <div className="i-title-item">MONGO</div>
               <div className="i-title-item">SCSS</div>
-             </p>
+            </p>
           </div>
 
           <h2>Full Stack Developer</h2>
@@ -75,8 +62,11 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-       
       </div>
+
+      <div className="resume">
+            <img src={Resume} alt="" className="resume-img" />
+          </div>
 
       <Loader type="pacman" />
     </>

@@ -4,7 +4,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
 import MyworkList from './components/Myworklist'
-import MyResume from './components/Resume'
+import MyResume from './components/MyResume'
 import './App.scss'
 
 function App() {

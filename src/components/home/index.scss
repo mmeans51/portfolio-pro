@@ -29,6 +29,8 @@
     span {
       font-size: 50px;
       }
+
+    
       
 
     &:before {
@@ -54,14 +56,14 @@
       opacity: 0.6;
     }
 
-    img {
-      margin-left: 20px;
-      opacity: 0;
-      width: 32px;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
-    }
+    // img {
+    //   margin-left: 20px;
+    //   opacity: 0;
+    //   width: 32px;
+    //   height: auto;
+    //   animation: rotateIn 1s linear both;
+    //   animation-delay: 1.4s;
+    // }
   }
 
   .i-title{
@@ -146,4 +148,15 @@
       color: #333;
     }
   }
+  }
+
+  .resume {
+    .resume-img {
+      height: 500px;
+      float: right;
+      margin-top: 600px;
+      margin-right: 100px;
+      display: flex;
+
+    }
   }
