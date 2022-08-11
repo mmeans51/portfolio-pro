@@ -6,6 +6,7 @@
     margin-top: 800px;
     
     
+    
     p {
       font-size: 20px;
     }
@@ -72,8 +73,9 @@
       padding: 20px;
       box-sizing: border-box;
       min-height: 100px;
+      
     }
-  }
+  
     .flat-button {
       color: #ffd700;
       font-size: 40px;
@@ -87,12 +89,13 @@
       text-transform: uppercase;
       float: left;
       text-align: center;
-      margin-right: 100px;
+      float: right;
+      margin-top: -100px;
       
       
     }
   
-  
+  }
   
   .container {
     position: relative;
