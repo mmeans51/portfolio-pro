@@ -5,7 +5,7 @@ import {
   faLinkedin,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope, faBriefcase, faFile } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -38,13 +38,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
         </NavLink>
-        <NavLink
-          activeclassname="active"
-          className="resume-link"
-          to="resume"
-          >
-            <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
-        </NavLink>
+       
 
       </nav>
       <ul>
