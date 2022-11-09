@@ -133,3 +133,12 @@
       }
     }
   }
+
+  @media screen and (max-width: 1200px) {
+    .text-zone {
+      width: 10%;
+      p {
+        font-size: 10px;
+      }
+    }
+  }
