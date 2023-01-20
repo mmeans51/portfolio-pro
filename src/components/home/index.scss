@@ -186,14 +186,24 @@
     .home-page .text-zone span {
       font-size: 40px;
     }
-  
+    .home-page h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .home-page .i-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .home-page .flat-button {
       float: none;
-      display: block;
+      display: flex;
       margin: 20px auto 0 auto;
-      width: 124px;
+      width: 80%;
       align-items: center;
-      
+      justify-content: center;
+      margin-left: 10px;
     }
   
     .resume {
