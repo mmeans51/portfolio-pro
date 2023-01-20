@@ -1,28 +1,28 @@
-// import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
-// import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../AnimatedLetters'
 import Resume from '../../img/coding-certification.png'
 
 import './index.scss'
 
 const Home = () => {
-  // const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate')
 
-  // const nameArray = ['e', 'a', 'n', 's']
-  // const jobArray = ['W', 'e', 'b D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+  const nameArray = ['e', 'a', 'n', 's']
+  const jobArray = ['W', 'e', 'b D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
-  // useEffect(() => {
-  //   return setTimeout(() => {
-  //     setLetterClass('text-animate-hover')
-  //   }, 4000)
-  // }, [])
+  useEffect(() => {
+    return setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+  }, [])
 
   return (
     <>
       <div className="container home-page">
         <div className="text-zone">
-          {/* <h1>
+          <h1>
             <span className={letterClass}>M</span>
             <span className={`${letterClass} _12`}>i</span>
             <span className={`${letterClass} _13`}>c</span>
@@ -42,7 +42,7 @@ const Home = () => {
               strArray={jobArray}
               idx={22}
             />
-          </h1> */}
+          </h1>
 
          
 

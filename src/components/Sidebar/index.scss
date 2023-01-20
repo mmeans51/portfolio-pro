@@ -8,18 +8,7 @@
   min-height: 500px;
   
 
-  .logo {
-    display: block;
-    padding: 8px 0;
-    height: 100px;
-
-    img {
-      display: block;
-      margin: 8px auto;
-      width: 350px;
-      height: 400px;
-    }
-  }
+ 
 
   nav {
     display: block;
@@ -130,6 +119,55 @@
           color: #ffd700;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    position: initial;
+    min-height: 70px;
+    width: 100%;
+    color: black;
+
+    &.mobile-show {
+      display: block;
+    }
+    
+    nav {
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: #181818;
+      height: 100px;
+      margin: 0;
+      z-index: 2;
+      position: fixed;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      a:after {
+        opacity: 1;
+        position: initial;
+        width: auto;
+        margin-left: 10PX;
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      
+      
     }
   }
 }
