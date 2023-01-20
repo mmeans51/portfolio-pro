@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
+  faInstagram
 } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import {  NavLink } from 'react-router-dom'
@@ -55,6 +56,13 @@ const Sidebar = () => {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+          <a
+            href="https://www.instagram.com/cole_means/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
           </a>
         </li>
         <li>
